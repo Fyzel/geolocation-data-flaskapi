@@ -19,7 +19,6 @@ from api.geolocation_data_flaskapi.business.security import authenticate, identi
 from flask_jwt import JWT, jwt_required, current_identity
 from api.geolocation_data_flaskapi.endpoints.location_endpoint import ns as location_namespace
 
-import settings
 from database import db
 
 
@@ -28,20 +27,7 @@ def create_app():
     return flask_app
 
 
-def configure_app(flask_app):
-    if settings.FLASK_MODE is 'DEV':
-        flask_app.config['SERVER_NAME'] = settings.FLASK_SERVER_NAME
-    flask_app.config['SQLALCHEMY_DATABASE_URI'] = settings.SQLALCHEMY_DATABASE_URI
-    flask_app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = settings.SQLALCHEMY_TRACK_MODIFICATIONS
-    flask_app.config['SWAGGER_UI_DOC_EXPANSION'] = settings.RESTPLUS_SWAGGER_UI_DOC_EXPANSION
-    flask_app.config['RESTPLUS_VALIDATE'] = settings.RESTPLUS_VALIDATE
-    flask_app.config['RESTPLUS_MASK_SWAGGER'] = settings.RESTPLUS_MASK_SWAGGER
-    flask_app.config['ERROR_404_HELP'] = settings.RESTPLUS_ERROR_404_HELP
-    flask_app.secret_key = settings.FLASK_SECRET_KEY
-
-
 def initialize_app(flask_app):
-    configure_app(flask_app)
     blueprint = Blueprint('geolocation', __name__, url_prefix='/geolocation')
     api.init_app(blueprint)
     api.add_namespace(location_namespace)
@@ -58,6 +44,7 @@ logging.config.fileConfig(log_file_path)
 log = logging.getLogger(__name__)
 
 app = create_app()
+app.config.from_object('config.DevelopmentConfig')
 initialize_app(app)
 
 jwt = JWT(app, authenticate, identity)
@@ -85,4 +72,4 @@ def main():
 
 
 if __name__ == "__main__":
-    app.run(debug=settings.FLASK_DEBUG)
+    app.run()

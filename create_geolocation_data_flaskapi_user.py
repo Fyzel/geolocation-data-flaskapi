@@ -27,7 +27,7 @@ from argparse import RawDescriptionHelpFormatter
 from passlib.hash import sha512_crypt
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, NVARCHAR, BOOLEAN, DATETIME, select
 
-from settings import SQLALCHEMY_DATABASE_URI
+import config
 from api.geolocation_data_flaskapi.business.security import salt_password
 
 __all__ = []
@@ -168,7 +168,7 @@ USAGE
 
         hashed_password = sha512_crypt.hash(salt_password(password, salt))
 
-        engine = create_engine(SQLALCHEMY_DATABASE_URI, echo=True)
+        engine = create_engine(config.DevelopmentConfig.SQLALCHEMY_DATABASE_URI, echo=True)
 
         metadata = MetaData()
         user = Table('user', metadata,
