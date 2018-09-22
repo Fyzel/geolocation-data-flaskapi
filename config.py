@@ -1,3 +1,15 @@
+"""
+@author:     Fyzel@users.noreply.github.com
+
+@copyright:  2017 Englesh.org. All rights reserved.
+
+@license:    https://github.com/Fyzel/geolocation-data-flaskapi/blob/master/LICENSE
+
+@contact:    Fyzel@users.noreply.github.com
+@deffield    updated: 2017-10-15
+"""
+
+
 class Config(object):
     DEBUG = False
     TESTING = False
