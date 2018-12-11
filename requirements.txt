@@ -8,7 +8,7 @@ Flask==1.0.2
 Flask-JWT==0.3.2
 flask-restplus==0.12.1
 Flask-SQLAlchemy==2.3.2
-idna==2.7
+idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10
 jsonschema==2.6.0
