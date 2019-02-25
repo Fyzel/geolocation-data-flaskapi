@@ -11,7 +11,7 @@ Flask-SQLAlchemy==2.3.2
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10
-jsonschema==2.6.0
+jsonschema==3.0.0
 MarkupSafe==1.1.0
 mysqlclient==1.4.2.post1
 passlib==1.7.1
