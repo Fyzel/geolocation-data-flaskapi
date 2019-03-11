@@ -1,4 +1,4 @@
-aniso8601==4.1.0
+aniso8601==6.0.0
 appdirs==1.4.3
 certifi==2018.11.29
 chardet==3.0.4
