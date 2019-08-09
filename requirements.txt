@@ -13,7 +13,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 jsonschema==3.0.2
 MarkupSafe==1.1.1
-mysqlclient==1.4.2.post1
+mysqlclient==1.4.3
 passlib==1.7.1
 pycountry==19.7.15
 PyJWT==1.7.1
