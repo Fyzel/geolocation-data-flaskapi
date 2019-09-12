@@ -1,6 +1,6 @@
 aniso8601==7.0.0
 appdirs==1.4.3
-certifi==2019.6.16
+certifi==2019.9.11
 chardet==3.0.4
 click==7.0
 configparser==4.0.1
