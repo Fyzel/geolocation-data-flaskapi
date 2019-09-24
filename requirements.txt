@@ -7,7 +7,7 @@ configparser==4.0.2
 Flask==1.1.1
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
-Flask-SQLAlchemy==2.4.0
+Flask-SQLAlchemy==2.4.1
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10.1
