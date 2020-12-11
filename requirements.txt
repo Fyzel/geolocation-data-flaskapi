@@ -1,7 +1,7 @@
 aniso8601==8.1.0
 appdirs==1.4.4
 certifi==2020.12.5
-chardet==3.0.4
+chardet==4.0.0
 click==7.1.2
 configparser==5.0.1
 Flask==1.1.2
