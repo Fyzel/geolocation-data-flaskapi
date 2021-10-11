@@ -2,7 +2,7 @@ aniso8601==9.0.1
 appdirs==1.4.4
 certifi==2021.5.30
 chardet==4.0.0
-click==8.0.1
+click==8.0.3
 configparser==5.0.2
 Flask==2.0.2
 Flask-JWT==0.3.2
