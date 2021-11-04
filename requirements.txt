@@ -3,7 +3,7 @@ appdirs==1.4.4
 certifi==2021.10.8
 chardet==4.0.0
 click==8.0.3
-configparser==5.0.2
+configparser==5.1.0
 Flask==2.0.2
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
