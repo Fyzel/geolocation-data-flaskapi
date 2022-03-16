@@ -12,7 +12,7 @@ idna==3.3
 itsdangerous==2.1.0
 Jinja2==3.0.3
 jsonschema==4.4.0
-MarkupSafe==2.1.0
+MarkupSafe==2.1.1
 mysqlclient==2.1.0
 passlib==1.7.4
 pycountry==22.1.10
