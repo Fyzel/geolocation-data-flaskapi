@@ -10,7 +10,7 @@ flask-restplus==0.13.0
 Flask-SQLAlchemy==2.5.1
 idna==3.3
 itsdangerous==2.1.0
-Jinja2==3.0.3
+Jinja2==3.1.0
 jsonschema==4.4.0
 MarkupSafe==2.1.0
 mysqlclient==2.1.0
