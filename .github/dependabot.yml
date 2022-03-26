@@ -5,6 +5,11 @@ updates:
   schedule:
     interval: daily
     time: "11:00"
+    # Raise pull requests for version updates
+    # to pip against the `development` branch
+    target-branch: "development"
+    labels:
+      - "pip dependencies"
   open-pull-requests-limit: 10
   allow:
   - dependency-type: direct
