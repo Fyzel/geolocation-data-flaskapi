@@ -9,8 +9,8 @@ Flask-JWT==0.3.2
 flask-restplus==0.13.0
 Flask-SQLAlchemy==2.5.1
 idna==3.3
-itsdangerous==2.1.0
 Jinja2==3.1.1
+itsdangerous==2.1.2
 jsonschema==4.4.0
 MarkupSafe==2.1.1
 mysqlclient==2.1.0
@@ -18,9 +18,9 @@ passlib==1.7.4
 pycountry==22.3.5
 PyJWT==2.3.0
 python-dateutil==2.8.2
-pytz==2021.3
+pytz==2022.1
 requests==2.27.1
 six==1.16.0
 SQLAlchemy==1.4.32
-urllib3==1.26.8
+urllib3==1.26.9
 Werkzeug==2.0.3
