@@ -28,4 +28,4 @@ requests==2.28.1
 six==1.16.0
 SQLAlchemy==1.4.40
 urllib3==1.26.12
-Werkzeug==2.2.2
+Werkzeug==2.2.3
