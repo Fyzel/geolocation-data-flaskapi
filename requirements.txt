@@ -7,7 +7,7 @@ click==8.1.7
 certifi==2023.7.22
 colorama==0.4.6
 configparser==6.0.0
-Flask==2.3.3
+Flask==3.0.0
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
 Flask-SQLAlchemy==3.0.5
