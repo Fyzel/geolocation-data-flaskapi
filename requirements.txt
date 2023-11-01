@@ -2,7 +2,7 @@ aniso8601==9.0.1
 appdirs==1.4.4
 attrs==23.1.0
 chardet==5.2.0
-charset-normalizer==3.2.0
+charset-normalizer==3.3.2
 click==8.1.7
 certifi==2023.7.22
 colorama==0.4.6
