@@ -10,7 +10,7 @@ configparser==6.0.0
 Flask==2.3.3
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
-Flask-SQLAlchemy==3.0.5
+Flask-SQLAlchemy==3.1.1
 greenlet==2.0.2
 idna==3.4
 itsdangerous==2.1.2
