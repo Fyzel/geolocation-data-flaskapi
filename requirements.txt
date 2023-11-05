@@ -7,10 +7,10 @@ click==8.1.7
 certifi==2023.7.22
 colorama==0.4.6
 configparser==6.0.0
-Flask==2.3.3
+Flask==3.0.0
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
-Flask-SQLAlchemy==3.0.5
+Flask-SQLAlchemy==3.1.1
 greenlet==2.0.2
 idna==3.4
 itsdangerous==2.1.2
@@ -23,9 +23,9 @@ pycountry==22.3.5
 PyJWT==2.8.0
 pyrsistent==0.19.3
 python-dateutil==2.8.2
-pytz==2023.3
+pytz==2023.3.post1
 requests==2.31.0
 six==1.16.0
 SQLAlchemy==2.0.20
-urllib3==2.0.4
 Werkzeug==3.0.1
+urllib3==2.0.7
