@@ -4,7 +4,7 @@ attrs==23.1.0
 chardet==5.2.0
 charset-normalizer==3.3.2
 click==8.1.7
-certifi==2023.7.22
+certifi==2023.11.17
 colorama==0.4.6
 configparser==6.0.0
 Flask==3.0.0
