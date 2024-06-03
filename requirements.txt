@@ -19,7 +19,7 @@ jsonschema==4.22.0
 MarkupSafe==2.1.5
 mysqlclient==2.2.4
 passlib==1.7.4
-pycountry==23.12.11
+pycountry==24.6.1
 PyJWT==2.8.0
 pyrsistent==0.20.0
 python-dateutil==2.9.0.post0
