@@ -6,7 +6,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 certifi==2024.7.4
 colorama==0.4.6
-configparser==7.0.0
+configparser==7.1.0
 Flask==3.0.3
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
