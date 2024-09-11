@@ -11,7 +11,7 @@ Flask==3.0.3
 Flask-JWT==0.3.2
 flask-restplus==0.13.0
 Flask-SQLAlchemy==3.1.1
-greenlet==3.0.3
+greenlet==3.1.0
 idna==3.7
 itsdangerous==2.2.0
 Jinja2==3.1.4
