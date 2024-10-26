@@ -27,5 +27,5 @@ pytz==2024.2
 requests==2.32.3
 six==1.16.0
 SQLAlchemy==2.0.35
-Werkzeug==3.0.4
+Werkzeug==3.0.6
 urllib3==2.2.3
